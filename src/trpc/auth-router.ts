@@ -9,6 +9,7 @@ export const authRouter = router({
     createPayloadUser: publicProcedure.input(AuthCredentialsValidator).mutation(async ({ input }) => {
         const { email, password } = input
         const payload = await getPayloadClient()
+        
 
         const { docs: users } = await payload.find({
             collection: "users",
@@ -49,6 +50,7 @@ export const authRouter = router({
 
 
            const payload  = await getPayloadClient()
+
 
            try{
             await payload.login({
