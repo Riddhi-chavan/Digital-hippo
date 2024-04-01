@@ -38,20 +38,20 @@ export const Products : CollectionConfig = {
             required : true ,
         },
         {
-            name : "catogory" ,
+            name : "category" ,
             label : "Category" ,
             type : "select" ,
             options : PRODUCT_CATEGORIES.map(({label , value}) => ({label , value})),
             required : true ,
         },
-        // {
-        //     name :  "product_files",
-        //     label: "Product file(s)" ,
-        //     type : "relationship" ,
-        //     required: true ,
-        //     relationTo : "product_files",
-        //     hasMany : false 
-        // },
+        {
+            name :  "product_files",
+            label: "Product file(s)" ,
+            type : "relationship" ,
+            required: true ,
+            relationTo : "product_files",
+            hasMany : false 
+        },
         {
             name : "approvedForSale" ,
             label : "Product Status" ,

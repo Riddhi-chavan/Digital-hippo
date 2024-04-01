@@ -1,4 +1,20 @@
-import { CollectionConfig } from "payload/types";
+import { User } from "../payload-types";
+import { Access, CollectionConfig } from "payload/types";
+
+const isAdminOrHasAcessToImages = () : Access => async ({
+    req
+})  => {
+ const user  = req.user as User | undefined
+
+ if (!user)  return false
+ if (user.role === "admin") return true
+
+ return {
+    user  :{
+        equals  : req.user.id ,
+    }
+ }
+} 
 
 export const Media : CollectionConfig = {
     slug : "media" ,
@@ -9,8 +25,22 @@ export const Media : CollectionConfig = {
             }
         ]
     },
+    access : {
+        read : async ({req}) => {
+            const referer =  req.headers.referer
+
+            if(!req.user || !referer?.includes('sell')) {
+                return true
+            }
+
+            return await isAdminOrHasAcessToImages()({req})
+        }, 
+        delete : isAdminOrHasAcessToImages(), 
+        update : isAdminOrHasAcessToImages(),
+        
+    },
     admin : {
-        hidden : ({user}) => user.role !== "admin" 
+        hidden : ({user}) => user.role !== "admin" ,
     },
     upload  : {
         staticURL : "/media" ,
