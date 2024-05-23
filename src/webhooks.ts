@@ -10,8 +10,8 @@ import { ReceiptEmailHtml } from './components/email/ReceiptEmail';
 const transporter = nodemailer.createTransport({
   service: 'gmail', // You can use other services such as 'SendGrid', 'Mailgun', etc.
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
+    user: "rohanprasadgpt@gmail.com",
+    pass: "zqgj ptwo sqyp bxlx"
   }
 });
 

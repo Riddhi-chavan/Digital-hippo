@@ -38,11 +38,13 @@ return  <div className="flex gap-4 h-full" ref={navRef}>
                 setActiveIndex(i)
             }
         }
+        const close = () => setActiveIndex(null)
 
         const isOpen = i === activeIndex
                 return (
                     <NavItem 
                     category={category}
+                    close={close}
                     handleOpen={handleOpen}
                     isOpen={isOpen}
                     key={category.value}

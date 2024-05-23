@@ -12,11 +12,12 @@ interface NavItemProps  {
     category  : Category
     handleOpen  : () => void
     isOpen : boolean 
+    close: () => void
     isAnyOpen : boolean
 }
 
 
-const NavItem  = ({category , isAnyOpen , isOpen , handleOpen} : NavItemProps) => {
+const NavItem  = ({category , isAnyOpen , isOpen , handleOpen , close } : NavItemProps) => {
 return (
 
     <div className="flex">
@@ -35,7 +36,7 @@ return (
     </Button>
  </div>
  {isOpen ? (
-    <div className={cn('absolute inset-x-0 top-full text-sm text-muted-foreground' , {
+    <div onClick={() => close()} className={cn('absolute inset-x-0 top-full text-sm text-muted-foreground' , {
         'animate-in fade-in-10 slide-in-from-top-5' : !isAnyOpen , 
     })}>
         <div className="absolute inset-0 top-1/2 bg-white shadow" aria-hidden='true'/>
