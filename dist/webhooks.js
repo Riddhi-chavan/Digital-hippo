@@ -47,8 +47,8 @@ var ReceiptEmail_1 = require("./components/email/ReceiptEmail");
 var transporter = nodemailer_1.default.createTransport({
     service: 'gmail', // You can use other services such as 'SendGrid', 'Mailgun', etc.
     auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
+        user: "rohanprasadgpt@gmail.com",
+        pass: "zqgj ptwo sqyp bxlx"
     }
 });
 var stripeWebhookHandler = function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
