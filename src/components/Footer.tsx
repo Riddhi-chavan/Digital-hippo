@@ -13,7 +13,7 @@ const Footer = () => {
   ]
 
   return (
-    <footer className='bg-white flex-grow-0'>
+    <footer className='bg-white flex-grow-0 mt-6'>
       <MaxWithWrapper>
         <div className='border-t border-gray-200'>
           {pathsToMinimize.includes(pathname) ? null : (
