@@ -45,8 +45,7 @@ Digital Hippo Marketplace is a platform where users can buy UI kits and icon fil
 
 
 ### Demo
-[![Demo Video](
-https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/2d0cfa88-f70f-4b64-a5b8-805af09efe81)
+https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/2d0cfa88-f70f-4b64-a5b8-805af09efe81
 
 ### Live Demo
 [Live Demo](https://digital-hippo-production-526d.up.railway.app/)
@@ -143,6 +142,6 @@ Ensure all necessary configurations, such as API keys and database connections, 
 
 Email: riddhic164@gmail.com
 
-Project Link: [https://github.com/Riddhi-chavan/Digital-hippo.git](https://github.com/Riddhi-chavan/Digital-hippo)
+Project Link: [https://github.com/Riddhi-chavan/Digital-hippo](https://github.com/Riddhi-chavan/Digital-hippo)
 
 Thank you for checking out my project! If you have any suggestions or find issues, feel free to open an issue or submit a pull request. Your feedback is highly appreciated!
