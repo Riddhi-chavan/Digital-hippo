@@ -1,5 +1,5 @@
 ![Digital Hippo Marketplace Logo](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/2705e347-4ea2-4aae-8d84-f4f241fc2d75)
-)
+
 
 # Digital Hippo Marketplace
 
