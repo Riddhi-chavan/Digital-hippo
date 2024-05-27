@@ -1,4 +1,5 @@
-![Digital Hippo Marketplace Logo]()
+![Digital Hippo Marketplace Logo](![thumbnail](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/bd18dc29-97bd-474a-bb1b-e96a55605268)
+)
 
 # Digital Hippo Marketplace
 
@@ -44,10 +45,11 @@ Digital Hippo Marketplace is a platform where users can buy UI kits and icon fil
 
 
 ### Demo
-[![Demo Video](https://github.com/Riddhi-chavan/The-Live-News/assets/130183432/2357921f-2575-4d85-ba74-53c0ec2c410d)](https://github.com/Riddhi-chavan/The-Live-News/assets/130183432/2357921f-2575-4d85-ba74-53c0ec2c410d)
+[![Demo Video](
+https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/2d0cfa88-f70f-4b64-a5b8-805af09efe81)
 
 ### Live Demo
-[Live Demo](https://the-live-news.vercel.app/)
+[Live Demo](https://digital-hippo-production-526d.up.railway.app/)
 
 ### Tech Stack
 - **Frontend**: Next.js, TypeScript, Tailwind CSS, Swiper
@@ -141,6 +143,6 @@ Ensure all necessary configurations, such as API keys and database connections, 
 
 Email: riddhic164@gmail.com
 
-Project Link: [https://github.com/Riddhi-chavan/Digital-Hippo-Marketplace](https://github.com/Riddhi-chavan/Digital-Hippo-Marketplace)
+Project Link: [https://github.com/Riddhi-chavan/Digital-hippo.git](https://github.com/Riddhi-chavan/Digital-hippo)
 
 Thank you for checking out my project! If you have any suggestions or find issues, feel free to open an issue or submit a pull request. Your feedback is highly appreciated!
