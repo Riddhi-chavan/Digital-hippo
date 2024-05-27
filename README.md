@@ -1,4 +1,4 @@
-![Digital Hippo Marketplace Logo](![thumbnail](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/bd18dc29-97bd-474a-bb1b-e96a55605268)
+![Digital Hippo Marketplace Logo](![thumbnail](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/134f838b-e8e3-4fd4-9e08-880bfad8776a)
 )
 
 # Digital Hippo Marketplace
@@ -45,7 +45,7 @@ Digital Hippo Marketplace is a platform where users can buy UI kits and icon fil
 
 
 ### Demo
-https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/2d0cfa88-f70f-4b64-a5b8-805af09efe81
+https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/b0e75a5d-5ada-4544-ad65-4fe8cd6f487e
 
 ### Live Demo
 [Live Demo](https://digital-hippo-production-526d.up.railway.app/)
