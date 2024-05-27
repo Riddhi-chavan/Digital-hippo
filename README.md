@@ -35,7 +35,13 @@ Digital Hippo Marketplace is a platform where users can buy UI kits and icon fil
 - **Email Notifications**: Users receive email notifications for account verification and order confirmations.
 
 ### Screenshots
-![Screenshot](https://github.com/Riddhi-chavan/The-Live-News/assets/130183432/6e9fa2a3-10db-402d-a1ed-c18bdb0cba66)
+![screencapture-digital-hippo-production-526d-up-railway-app-2024-05-27-17_01_20](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/5020cb3a-e07e-400e-a882-db063aff351d)
+![screencapture-digital-hippo-production-526d-up-railway-app-product-6643ca15f7cb3646bebb0142-2024-05-27-17_01_42](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/8c9ba71a-e2f6-426d-95dd-07f3b2072a7c)
+![screencapture-digital-hippo-production-526d-up-railway-app-cart-2024-05-27-17_02_04](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/916adffb-aad2-41cd-bec5-1a4a7af19d83)
+![screencapture-checkout-stripe-c-pay-cs-test-b1xV88uYDwt8462i3vRXTBHgQ451aSfF6elTdZsebBLsiF4jb41Be1vyux-2024-05-27-17_02_27](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/b9959521-1113-43aa-938d-eaea325ec253)
+![screencapture-digital-hippo-production-526d-up-railway-app-thank-you-2024-05-27-17_00_58](https://github.com/Riddhi-chavan/Digital-hippo/assets/130183432/1381bb52-d186-42d9-828d-30bc4db67fad)
+
+
 
 ### Demo
 [![Demo Video](https://github.com/Riddhi-chavan/The-Live-News/assets/130183432/2357921f-2575-4d85-ba74-53c0ec2c410d)](https://github.com/Riddhi-chavan/The-Live-News/assets/130183432/2357921f-2575-4d85-ba74-53c0ec2c410d)
