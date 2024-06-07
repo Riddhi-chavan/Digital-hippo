@@ -8,6 +8,8 @@ import { PRODUCT_CATEGORIES } from "@/config"
 import { formatPrice } from "@/lib/utils"
 import Link from "next/link"
 import PaymentStatus from "../../components/PaymentStatus"
+import DownloadLink from "@/components/DownloadLink"
+
 
 interface PageProps {
     searchParams : {[key :string] : string | string[] | undefined}
@@ -41,6 +43,8 @@ const ThankYouPage  = async ({searchParams} : PageProps) => {
     const orderTotal = products.reduce((total , product) => {
         return total + product.price
     }, 0)
+
+    
 return ( 
 <main className="relative lg:min-h-full">
     <div className="hidden lg:block h-80 overflow-hidden lg:absolute lg:h-full lg:w-1/2 lg:pr-4 xl:pr-12">
@@ -78,10 +82,12 @@ return (
                                             <p className="my-1">Category : {label}</p>
                                         </div>
                                         {order._isPaid ? (
-                                            <a href={downloadUrl} download={product.name} className="text-blue-600 hover:underline underline-offset-2">
-                                                Download assest
-                                            </a>
-                                        ) : null}
+                                            <DownloadLink
+                                                productId={product.id}
+                                                productName={product.name}
+                                                downloadUrl={downloadUrl}
+                                            />
+                                            ) : null}
                                     </div>
                                     <p className="flex-none font-medium text-gray-900">
                                         {formatPrice(product.price)}

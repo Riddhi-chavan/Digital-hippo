@@ -38,7 +38,7 @@ const CartItem = ({product} : {product : Product}) => {
                         {formatPrice(product.price)}
                     </span>
                 </div>
-            </div>
+            </div>        
         </div>
     )
 }
